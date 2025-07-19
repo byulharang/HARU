@@ -1,5 +1,5 @@
 # HARU
-**Hierarchical cross-Attenion Resnet based U-net** <br> for **depth map inpainting** with partial panorama and ambisonic room impulse response
+**Hierarchical cross-Attention Resnet based U-net** <br> for **depth map inpainting** with partial panorama and ambisonic room impulse response
 
 We propose **novel model** for **novel task** with **physical analysis** aligned with acoustic theory
 
