@@ -28,7 +28,7 @@ Our proposed transformer(TR) based model outperform the CNN based model (from Ïù
 <img src="https://github.com/byulharang/HARU/blob/main/images/metric.png" alt="PSNR and SSIM" width= "800" />
 
 * **Perceptual Quality with naive eyes:** TR based model estimate plausible result
-  * *Kindly ask the GT is little different by uncontrolled randomness*
+  * *Kindly mention that the GT is little different by uncontrolled randomness*
 
 <img src="https://github.com/byulharang/HARU/blob/main/images/perceptual%20result.png" alt="Perceptual Result Comparison" width="900" />
 
