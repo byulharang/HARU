@@ -16,7 +16,11 @@ We propose **novel model** for **novel task** with **physical analysis** aligned
 ---
 
 # Abstract
-﻿Reconstructing the indoor structures is crucial for augmented/extended reality (AR/XR) applications or interactions. The structural information can be obtained from indoor depth panoramas; however, acquiring a complete depth panorama under typical conditions remains challenging due to the limited field of view. We propose the novel model that reconstruct the full depth panorama from the partial panorama and room impulse response. The model acheive about 20 dB and 0.844 for peak signal-to-noise ratio (PSNR) and structual similiarity index map (SSIM) evaluation metrics, respectively.
+﻿Reconstructing the indoor structures is crucial for augmented/extended reality (AR/XR) applications or interactions. 
+The structural information can be obtained from indoor depth panoramas; 
+however, acquiring a complete depth panorama under typical conditions remains challenging due to the limited field of view. 
+We propose the novel model that reconstruct the full depth panorama from the partial panorama and room impulse response. 
+The model acheive about 20 dB and 0.844 for peak signal-to-noise ratio (PSNR) and structual similiarity index map (SSIM) evaluation metrics, respectively.
  
 <img src="https://github.com/byulharang/HARU/blob/main/images/Architecture.png" alt="Proposed Model Flow" width="900" />
 
