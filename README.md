@@ -29,12 +29,32 @@ Our proposed transformer(TR) based model outperform the CNN based model (from Ïù
 * **Peak-signal-to-noise (PSNR):** High value refer better image quality
 * **Structural similiarity index map (SSIM):** High value refer better structural, luminance, contrast quality
 
-<img src="https://github.com/byulharang/HARU/blob/main/images/metric.png" alt="PSNR and SSIM" width= "800" />
+<img src="https://github.com/byulharang/HARU/blob/main/images/metric.png" alt="PSNR and SSIM" width= "800" /> 
 
 * **Perceptual Quality with naive eyes:** TR based model estimate plausible result
   * *Kindly mention that the GT is little different by uncontrolled randomness*
 
 <img src="https://github.com/byulharang/HARU/blob/main/images/perceptual%20result.png" alt="Perceptual Result Comparison" width="900" />
+
+# Analysis with Acoustics
+Each block of ResNet is attention on distinct elements of indoor room shown as the figure below. <br>
+* RIR can be seperate as the **direct sound, early reflection, and late reverberation** parts
+* Indoor suggested as explained by **floorplan, edges, fine details, and representative structure** of the room
+
+<img src="https://github.com/byulharang/HARU/blob/main/images/analysis.png" alt="Attention heatmap Anaysis" width="900" />
+
+**Claim** 
+
+*The red bar indicate time until 125ms where the low-to-high order reflections exist, refer to [EchoScan](https://arxiv.org/abs/2310.11728)* <br>
+1. Map 1 matches floorplan and late reverberation aligned with Sabine's Equation
+2. Map 2 matches fine scaled structure and lots of early reflection in short time period
+3. Map 3 matches edges and multiple reflections within a short interval
+4. Map 4 matches height, representative structure and direct sound & reflection & EDC curve region
+
+**Analysis leads to Blockwise Contrastive Learning task as the another branch of future works** 
+
+* As each block can extract distint features
+* Might help global smoothing problem of transformer encoder
 
 # Future Work
 * We consider **Diffusion or Flow** based model with HARU as the noise estimator or vector field function respectively <br>
