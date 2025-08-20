@@ -10,7 +10,8 @@ We propose **novel model** for **novel task** with **physical analysis** aligned
 **2025 URP Winter/Spring** <br>
 **Final Paper for URP:** 🧾[PDF](https://drive.google.com/file/d/16QuwoCr_mHgrDiSO7QP3mxkWWsUO02gW/view?usp=sharing) *editted with **CVPR** format* <br> 
 **Final Presentation:** 🔬 [Google Slide](https://docs.google.com/presentation/d/1msZiOX9Xy62TaJzaRabDi3YwDLrduo0H3MF4yPv1NOQ/edit?usp=sharing) <br>
-**Data & Experiment Logs:** 🌐 [Notion](https://kiwi-primrose-e33.notion.site/URP-16d30761238f8068aec6f9576ef4bee2?source=copy_link)
+**Data & Experiment Logs:** 🌐 [Notion](https://kiwi-primrose-e33.notion.site/URP-16d30761238f8068aec6f9576ef4bee2?source=copy_link) <br>
+**URP workshop assets:** 📊 [asset](https://drive.google.com/drive/folders/10y3ilJuqthkZpNE3-s8eFOA6R5--TWl7?usp=sharing)
 
 ---
 
